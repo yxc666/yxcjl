@@ -1,0 +1,33 @@
+
+.myName{
+  background:#cd5353;
+}
+
+#tabs li.active a{
+  border-right-color:#cd5353;
+  color:#cd5353;
+}
+
+#tabs li.active b.icon{
+  border-right-color:#cd5353;
+}
+
+.edge b{
+  color:#cd5353;
+}
+
+#innerContent h1{
+  color:#cd5353;
+}
+
+#innerContent h2{
+  color:#cd5353;
+}
+
+.introduction ul li{
+  border-left-color:#cd5353;
+}
+
+.contact-list li button{
+  background: #cd5353;
+}
