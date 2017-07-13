@@ -1,4 +1,4 @@
-:<!DOCTYPE html>
+<!doctype html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link id="mainCSS" rel="stylesheet" href="css/theme/red.css"/>
 
-
-    <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
+	<script src="js/jquery-1.11.3.js" type="text/javascript"></script>
     <script src="js/jquery.easytabs.min.js" type="text/javascript"></script>
     <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript" defer="defer"></script>
+   
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -56,17 +56,17 @@
         <div class="picture">
             <img class="img-responsive" src="img/img.png" />
             <div class=myName>
-                <h1>your name</h1>
-                <h2>your short introduce</h2>
+                <h1>袁 习 才</h1>
+                <h2>web前端工程师</h2>
             </div>
         </div>
         <!--导航栏-->
         <nav id="tabs">
             <ul class="tabs clearfix">
-                <li><a class="tab-abouat" href="#about"><i class="fa fa-user"></i>person<b class="icon active"></b></a></li>
-                <li><a class="tab-skill" href="#skill"><i class="fa fa-thumbs-up"></i>skill<b class="icon"></b></a></li>
-                <li><a class="tab-project" href="#project"><i class="fa fa-pencil"></i>project<b class="icon"></b></a></li>
-                <li><a class="tab-contact" href="#contact"><i class="fa fa-envelope"></i>contact<b class="icon"></b></a></li>
+                <li><a class="tab-abouat" href="#about"><i class="fa fa-user"></i>个人简介<b class="icon active"></b></a></li>
+                <li><a class="tab-skill" href="#skill"><i class="fa fa-thumbs-up"></i>掌握技能<b class="icon"></b></a></li>
+                <li><a class="tab-project" href="#project"><i class="fa fa-pencil"></i>项目简介<b class="icon"></b></a></li>
+                <li><a class="tab-contact" href="#contact"><i class="fa fa-envelope"></i>联系方式<b class="icon"></b></a></li>
             </ul>
         </nav>
     </header>
@@ -78,47 +78,48 @@
         <div id="innerContent" class="clearfix">
             <!--简介-->
             <article id="about" class="clearfix">
-                <h1>此处标题</h1>
+                <h1>个人简介</h1>
                 <section class="introduction clearfix">
-                    <h2>/subtitle</h2>
-                    <p>a short introduce yourself</p>
+                    <h2>/个人信息</h2>
+                    <p></p>
                     <ul class="info fl">
-                        <li><span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span>输入姓名输入姓名</li>
-                        <li><span>目标职位：</span>输入职位输入职位</li>
-                        <li><span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span>输入手机输入手机</li>
+                        <li><span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span>袁 习 才</li>
+                        <li><span>目标职位：</span>web前端工程师</li>
+                        <li><span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span>152 7201 3584</li>
                     </ul>
                     <ul class="info fl">
-                        <li><span>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</span>输入邮箱输入邮箱</li>
-                        <li><span>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄：</span>输入年龄输入年龄</li>
-                        <li><span>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</span>输入地址输入地址</li>
+                        <li><span>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</span>410014739@qq.com</li>
+                        <li><span>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄：</span>24</li>
+                        <li><span>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</span>湖北武汉</li>
                     </ul>
                 </section>
                 <section class="education">
-                    <h2>/subtitle</h2>
+                    <h2>/教育背景</h2>
                     <div>
-                        <h3>school</h3>
-                        <h4>duration</h4>
+                        <h4>湖北汽车工业学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本科</h4>
+                        <h4>2011-2015</h4>
                     </div>
-                    <p>write your discribe....Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                    <p>在校期间成绩优秀，获得三等人民奖学金，通过CET4，积极参与各种校内活动，担任学生会动力先锋社慧鱼部部长。</p>
                 </section>
                 <section class="experience">
-                    <h2>/subtitle</h2>
+                    <h2>工作经验</h2>
                     <div>
-                        <h3>company1</h3>
-                        <h4>duration1</h4>
+                        <h4>共青团沙洋县委&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宣传干事</h4>
+                        <h4>2015-2016</h4>
                     </div>
-                    <p>write your discribe....Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                    <p>担任宣传部干事，负责共青团沙洋县委的微信公众号和微博号的运营，开发，运营期间增长粉丝10000余名。</p>
                     <br/>
-                    <div>
+                    <!--<div>
                         <h3>company2</h3>
                         <h4>duration2</h4>
                     </div>
                     <p>write your discribe....Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                	-->
                 </section>
             </article>
             <!--背景-->
             <article id="skill" class="clearfix">
-                <h1>此处标题</h1>
+                <h1>掌握技能</h1>
                 <svg id="s1">
                     <!--渐变-->
                     <defs id="gra"></defs>
@@ -128,52 +129,72 @@
                     <g id="group-bars"></g>
                 </svg>
                 <section class="skill skill-nice">
-                    <h2>star hear</h2>
-                    <p>prompt your skillprompt your skillprompt your skillprompt your skillprompt your skillprompt your skillprompt your skillprompt your skillprompt your skill</p>
+                    <h2>
+                        <b>掌握程度:</b>
+                    	<b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star-o"></b>
+                    </h2>
+                    <p> 精通html，css，能实现各种页面静态和动态效果；精通js，	原生dom,bom,以及jquery,能够实现各种用户交互效果。</p>
                 </section>
                 <section class="skill skill-good">
-                    <h2>star hear</h2>
-                    <p>prompt your skill</p>
+                    <h2>
+                        <b>掌握程度:</b>
+                    	<b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star-half-o"></b>
+                        <b class="fa fa-star-o"></b>
+                    </h2>
+                    <p>2.熟练掌握响应式布局，能够实现各种手机的适配，熟练掌握	ajax技术，能够实现表单异步验证提交功能。熟练掌握	ionic,angular，熟悉SPA开发和MVC模块化设计。</p>
                 </section>
                 <section class="skill skill-eval">
-                    <h2>star hear</h2>
-                    <p>prompt your skill</p>
+                    <h2>
+                        <b>掌握程度:</b>
+                    	<b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star"></b>
+                        <b class="fa fa-star-o"></b>
+                        <b class="fa fa-star-o"></b>
+                    </h2>
+                    <p>掌握boot框架，熟练掌握php/nodeJS 能够利用其对数据库	进行增删改查等操作，熟悉ES6新标准，了解React，Vue，	了解组件化设计。</p>
                 </section>
             </article>
             <!--技能-->
             <article id="project" class="clearfix">
-                <h1>此处标题</h1>
+                <h1>项目简介</h1>
                 <section>
-                    <h2>/project name</h2>
-                    <h3>use skills</h3>
+                    <h2>易买手机商城</h2>
+                    <h4>网址：mobileym.applinzi.com</h4>
+                    <h3>所用技术：html5，css3，js，php，ajax，ionic，angularJS</h3>
                     <ol>
-                        <li>describe your project...describe your project..........</li>
-                        <li>describe your project...describe your project..........</li>
-                        <li>describe your project...describe your project..........</li>
-                        <li>describe your project...describe your project..........</li>
-                        <li>describe your project...describe your project..........</li>
+                        <li>1. 该项目是移动端购物系统，分为商品查询、购物车管理、订单管理、用户管理4个模块。</li>
+                        <li>2. 使用html/css+ionic/angularJs+Ajax+php技术，采用mvp架构，商品查询模块实现了分类查询、关键词搜索查询，购物车模块实现了查看、购买、修改数量等功能，订单模块实现了查看、下单、删除功能，用户管理模块实现了用户登陆、注册、退出功能。</li>
                     </ol>
                 </section>
                 <br/>
                 <section>
-                    <h2>project name</h2>
-                    <h3>use skills</h3>
-                    <li>describe your project...describe your project..........</li>
-                    <li>describe your project...describe your project..........</li>
-                    <li>describe your project...describe your project..........</li>
-                    <li>describe your project...describe your project..........</li>
-                    <li>describe your project...describe your project..........</li>
+                    <h2>1905WOW</h2>
+                    <h4>网址：http://wowmovie.applinzi.com</h4>
+                    <h3>所用技术：html5，css3，jquery，php，ajax，canvas</h3>
+                    <li>1. 运用html/css完成页面的基本布局，运用css3的animation动画使页面更加活泼生动。</li>
+                    <li>2. 使用js原生以及jquery框架，完成网站的用户交互效果。</li>
+                    <li>3. 使用mysql创建电影库，利用php实现了电影的分类和查询功能以及用户登录注册功能。</li>
                 </section>
             </article>
             <!--联系我-->
             <article id="contact" class="clearfix">
-                <h1>此处标题</h1>
+                <h1>联系方式</h1>
                 <section>
-                    <h2>/self evaluate</h2>
-                    <p>detail...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                    <h2>自我评价</h2>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;自信、乐观、责任心强。为人真诚，惯于换位思考；对自己要求严格，做事情讲究效率。<br>
+						&nbsp;&nbsp;&nbsp;&nbsp; 对web前端及前端相关技术兴趣浓厚，喜欢学习新技术，能够适应前端行业的要求以及前端新技术的挑战，求知欲和学习能力强。
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;掌握各种软件工具webstorm、phtoshop等，能用其进行高效的前端开发。</p>
                 </section>
                 <section>
-                    <h2>/contact me</h2>
+                    <h2>联系我吧</h2>
                     <form action="#">
                         <ul class="contact-list clearfix">
                             <li>
@@ -185,16 +206,14 @@
                             <li>
                                 <textarea id="yMessage" name="message" rows="10"></textarea>
                             </li>
-                            <li><button>发 送</button>
+                            <li><button>发送</button>
                         </ul>
                     </form>
                 </section>
             </article>
         </div>
     </section>
-    <footer id="footer">
-
-    </footer>
+   
 </div>
 </body>
 </html>
